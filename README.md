@@ -1,7 +1,9 @@
-#Pixabay Image Gallery
+# Pixabay Image Gallery
+
 Built with React & Sass.
 
-###Functionality:
+### Functionality:
 
 ● Image search
+
 ● Display zoom image in another page
