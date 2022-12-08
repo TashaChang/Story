@@ -5,7 +5,7 @@ const Card = ({ image }) => {
   return (
     <div className="container">
       <div>
-        <a target="_blank" href={image.largeImageURL}>
+        <a target="_blank" rel="noreferrer" href={image.largeImageURL}>
           <img src={image.webformatURL} alt="Pics" />
         </a>
       </div>

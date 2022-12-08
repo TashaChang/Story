@@ -8,9 +8,16 @@ const Search = ({ loading }) => {
     loading(text);
   }
 
+  function enter(e) {
+    if (e.key === "Enter") {
+      loading(text);
+    }
+  }
+
   return (
     <header>
       <input
+        onKeyDown={enter}
         value={text}
         onChange={(e) => {
           setText(e.target.value);
